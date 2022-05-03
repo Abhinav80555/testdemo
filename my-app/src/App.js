@@ -59,7 +59,7 @@ function Counter() {
   const[dislike,setDislike]=useState(0)
 
   return(
-    <div>
+    <div>x
 {/* onclick-camelcase */}
 <button className="btn-like" onClick={()=> 
 setLike(like+1)
